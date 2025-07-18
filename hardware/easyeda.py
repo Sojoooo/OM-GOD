@@ -2,7 +2,7 @@ import subprocess
 import sys
 import os
 
-def run_easyeda2kicad_from_file(input_file, output_dir="./lib/linea", python_path="../../.venv/bin/python"):
+def run_easyeda2kicad_from_file(input_file, output_dir="./lib/lcsc", python_path="../../.venv/bin/python"):
     output_dir = os.path.expanduser(output_dir)
     python_path = os.path.abspath(python_path)
 
@@ -37,5 +37,5 @@ def run_easyeda2kicad_from_file(input_file, output_dir="./lib/linea", python_pat
 
 if __name__ == "__main__":
         input_path = sys.argv[1] if len(sys.argv) > 2 else "lcsc.txt"
-        output_path = sys.argv[2] if len(sys.argv) > 2 else "./lib/linea"
-        run_easyeda2kicad_from_file(input_path, output_path, os.name == "nt" and "C:/Python312/python.exe" or None)
+        output_path = sys.argv[2] if len(sys.argv) > 2 else "./lib/lcsc"
+        run_easyeda2kicad_from_file(input_path, output_path, os.name == "nt" and "C:/Users/SOJO/AppData/Local/Programs/Python/Python311/python.exe" or None)
