@@ -7074,232 +7074,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "lcsc:MKDV4GCL-ABB"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MKDV4GCL-ABB"
-				(at 0 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "lcsc:LGA-8_L6.0-W8.0-P1.27-TL"
-				(at 0 -11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C7500178"
-				(at 0 -13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MKDV4GCL-ABB_0_1"
-				(rectangle
-					(start -8.89 6.35)
-					(end 8.89 -6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -7.62 5.08)
-					(radius 0.38)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -11.43 3.81 0)
-					(length 2.54)
-					(name "DAT2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -11.43 1.27 0)
-					(length 2.54)
-					(name "DAT3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -11.43 -1.27 0)
-					(length 2.54)
-					(name "CLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -11.43 -3.81 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 11.43 3.81 180)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 11.43 1.27 180)
-					(length 2.54)
-					(name "DAT1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 11.43 -1.27 180)
-					(length 2.54)
-					(name "DAT0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 11.43 -3.81 180)
-					(length 2.54)
-					(name "CMD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "lcsc:NE5532DR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -15854,16 +15628,6 @@
 		)
 		(uuid "29b88b09-6079-4899-8aca-3641db43c6a7")
 	)
-	(text "NAnd Flash"
-		(exclude_from_sim no)
-		(at 1071.118 378.46 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "3493b9ad-e521-48dd-a407-70a708739178")
-	)
 	(text "Function Knob"
 		(exclude_from_sim no)
 		(at 192.278 461.518 0)
@@ -22441,16 +22205,6 @@
 		)
 		(uuid "313baa65-1733-464b-843c-831aa8ea5ebd")
 	)
-	(polyline
-		(pts
-			(xy 1056.64 405.13) (xy 1056.64 381)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "316c8559-d806-4753-a78a-df9e44b1fd2c")
-	)
 	(wire
 		(pts
 			(xy 339.09 708.66) (xy 365.76 708.66)
@@ -23390,16 +23144,6 @@
 			(type default)
 		)
 		(uuid "3db876e5-ddce-4c62-9fe2-995f76c3ea5e")
-	)
-	(polyline
-		(pts
-			(xy 1056.64 381) (xy 1087.12 381)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3dc87e7b-8337-40cd-bc5a-65cbf2e19e24")
 	)
 	(wire
 		(pts
@@ -26510,16 +26254,6 @@
 			(type default)
 		)
 		(uuid "6d08eb74-b6da-4717-863e-3e8404be9664")
-	)
-	(polyline
-		(pts
-			(xy 1087.12 382.27) (xy 1087.12 405.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d1ceecd-3c84-4312-92e2-621537273a1e")
 	)
 	(wire
 		(pts
@@ -33871,16 +33605,6 @@
 		)
 		(uuid "e316c1d2-c3f4-4194-805c-3c81c9e60003")
 	)
-	(polyline
-		(pts
-			(xy 1087.12 381) (xy 1087.12 383.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e328c182-f57e-48fc-b946-0c62f85b763f")
-	)
 	(wire
 		(pts
 			(xy 53.34 96.52) (xy 53.34 93.98)
@@ -34760,16 +34484,6 @@
 			(type default)
 		)
 		(uuid "f0f029d0-c5c8-4524-97e7-e7f8c997c6fb")
-	)
-	(polyline
-		(pts
-			(xy 1087.12 405.13) (xy 1056.64 405.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1d356d8-d19f-403f-9acd-76a5f608fca6")
 	)
 	(wire
 		(pts
@@ -76898,101 +76612,6 @@
 			(project "om-god"
 				(path "/0dd47ee7-841f-4fd7-9fd1-ca99fc50fdde"
 					(reference "C105")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lcsc:MKDV4GCL-ABB")
-		(at 1071.88 396.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c11d5094-2220-4a96-99d0-2f964745822c")
-		(property "Reference" "U6"
-			(at 1071.88 384.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MKDV4GCL-ABB"
-			(at 1071.88 387.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "lcsc:LGA-8_L6.0-W8.0-P1.27-TL"
-			(at 1071.88 407.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 1071.88 396.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 1071.88 396.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C7500178"
-			(at 1071.88 410.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9902befb-2c70-445d-938e-8b2e9fcf910e")
-		)
-		(pin "6"
-			(uuid "826eea75-b633-401e-bdcd-34ff99b33971")
-		)
-		(pin "5"
-			(uuid "f9b6113b-b678-48e4-9144-98b466a44442")
-		)
-		(pin "3"
-			(uuid "48ae7c4a-6de2-4bea-9fce-cb027886b261")
-		)
-		(pin "8"
-			(uuid "982a1270-98c1-4f8a-8ca9-12dd2feae9a1")
-		)
-		(pin "4"
-			(uuid "18ce01df-5f48-4bc4-a3fb-908381af4d35")
-		)
-		(pin "7"
-			(uuid "2ea6d14e-2a62-4691-87a8-76f6227f5283")
-		)
-		(pin "2"
-			(uuid "d979420f-5c7a-4cda-9be8-d9c0ffccadb5")
-		)
-		(instances
-			(project ""
-				(path "/0dd47ee7-841f-4fd7-9fd1-ca99fc50fdde"
-					(reference "U6")
 					(unit 1)
 				)
 			)
