@@ -84,10 +84,12 @@ The final design incorporates all planned features while maintaining a compact, 
 
 ## BOM
 
-| Component | Source | Cost (USD)  |
-| --------- | ------ | ----------- |
-| PCB       | JLCPCB | $343.16     |
-| **Total** |        | **$343.16** |
+| Component  | Source        | Cost (USD)  |
+| ---------  | ------        | ----------- |
+| PCB        | JLCPCB        | $348.25     |
+| SPEAKER    | MERCADO LIBRE | $7.00       |
+| FLEX CABLE | MERCADO LIBRE | $4.15       |
+| **Total**  |               | **359.4** |
 
 _Note: Speakers, keycaps, and case are already owned components from previous projects._
 
