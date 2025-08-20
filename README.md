@@ -28,7 +28,6 @@ Ominichord [Gate of Divinity]. Mash-up of all the previous omnichords and more.
 
 ## Key Features
 
-- **Multi-speaker audio system** with subwoofer, woofer, and tweeter
 - **STM32H7 microcontroller** for high-performance processing
 - **Texas Instruments DACs and amplifiers** for professional audio quality
 - **MIDI connectivity** for external device integration
@@ -88,8 +87,9 @@ The final design incorporates all planned features while maintaining a compact, 
 | ---------  | ------        | ----------- |
 | PCB        | JLCPCB        | $348.25     |
 | SPEAKER    | MERCADO LIBRE | $7.00       |
-| FLEX CABLE | MERCADO LIBRE | $4.15       |
-| **Total**  |               | **359.4** |
+| FLEX CABLE | MERCADO LIBRE | $4.42       |
+| JST CABLE  | MERCADO LIBRE | $5.00       |
+| **Total**  |               | **364.67** |
 
 _Note: Speakers, keycaps, and case are already owned components from previous projects._
 
