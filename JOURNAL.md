@@ -38,23 +38,31 @@ After watching several teardown videos, I saw that it uses an STM32H7 chip, and 
 
 **Hours: 7**
 
-# July 19-20: More Component Selection
+# July 19: More Component Selection
 
-I wanted to have 3 speakers: a subwoofer, woofer, and tweeter, so I had to add sufficient DACs. This led me to spend a long time searching through the datasheets and learning about the different classes of DACs and amps. I finally ended up with a DAC named PCM5122PW and a class D amp called TPA3116D2DAD from Texas Instruments (I love Texas Instruments). These I have seen to be widely used and they have good support, so I added them to the schematic.
+I wanted to have 3 speakers: a subwoofer, woofer, and tweeter. I also wanted a stereo out and a headphones out. All this could have been too much current for just one DAC, so I had to add sufficient DACs. This led me to spend a long time searching through the datasheets and learning about the different classes of DACs and amps. I finally ended up with a DAC named PCM5122PW and a class D amp called TPA3116D2DAD from Texas Instruments (I love Texas Instruments). These I have seen to be widely used and they have good support, so I added them to the schematic.
 
 ![DAC Wiring](assets/wiring_dac.jpg)
 
-**Hours: 14** (7 hours each day)
+**Hours: 7**
 
-# July 21: I/O
+# July 20: I/O
 
-After adding the DACs, I started work on the different audio connectors that I wanted to add. I planned to have MIDI, stereo out, mono out, and a headphone jack to connect to speakers. I then researched and found out that MIDI is basically fancy UART, so I found a connector on LCSC and added it to the schematic (I'm reading the datasheets later). Then I found some jacks and added them as well. I wanted this feature so that when you plug only one line in, it's mono, and if you plug both then it's stereo, so I added a multiplexer TS5A23159RSER.
+After adding the DACs, I started work on the different audio connectors that I wanted to add. Besides the ones mentioned before, i also wanted to add a midi in/midi out. I then researched and found out that MIDI is basically fancy UART, so I found a connector on LCSC and added it to the schematic (I'm reading the datasheets later). Then I found some jacks and added them as well. I wanted this feature so that when you plug only one line in, it's mono, and if you plug both then it's stereo, so I added a multiplexer TS5A23159RSER.
 
-After re-reading over my work from the days before, I started having doubts about the audio quality, so I asked a teacher that studied electronic engineering and he said that I might need a buffer so that the sound signal has strength and isn't noisy or weak. I spent the rest of the day researching buffers and adding one into the schematic, so I chose the TS5A23159RSER.
+After re-reading over my work from the days before, I started having doubts about the audio quality, so I asked a teacher that studied electronic engineering and he said that I might need a buffer so that the sound signal has strength and isn't noisy or weak. I spent the rest of the day researching buffers and adding one into the schematic, so I chose the NE5532DR.
 
 ![Buffer Wiring](assets/wiring_buf.jpg)
 
 **Hours: 7**
+
+# July 21: Biggest issue
+
+After adding the DAC, and finish all the buffering and filtering of the different audio systems incorporated, i wanted to finally solve the problem: how would the user control the volume? I first thought about pots, which are usually whats used in DIY proyects. The problem with pots was that if i used actual pots with knobs, then the user would need to separatly control the headphones volume, the stereo out volume, and the speakers volume, which i didn't want. Also, i think finding log taper pots in lcsc is quite the challenge, which is crucial for a good volume gradient. Plan B was using digipots, but there arent any good audio quality digipots in the market for some reason. I then asked myself: how do car audio systems work? how is volume handled profesionally? I finally found that you could control it from the DAC, as long as it had a I2C to get all this info from the MCU. Because of this, I ended up updating all three DACs from PCM5102A to PCM5122. This took me a lot of time to solve.
+
+
+
+![DAC Wiring](assets/wiring_dac.jpg)
 
 # July 22: Buttons and Switches
 

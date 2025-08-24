@@ -59,14 +59,14 @@ Designed in KiCad with a focus on audio quality and modern features. Notable com
 ### Schematic Development
 
 <img src="assets/schematic_initial.jpg" alt="Initial Schematic" width="500"/>
-<img src="assets/schematic_final.png" alt="Final Schematic" width="500"/>
+<img src="assets/schematic_final_2.png" alt="Final Schematic" width="500"/>
 
 The schematic evolved through multiple iterations, starting with basic component selection and progressing to a complete audio system with power management, I/O interfaces, and user controls.
 
 ### Component Integration
 
-<img src="assets/wiring_dac.jpg" alt="DAC Wiring" width="400"/>
-<img src="assets/wiring_buf.jpg" alt="Buffer Wiring" width="400"/>
+<img src="assets/DAC_2.png" alt="DAC Wiring" width="400"/>
+<img src="assets/buffer.png" alt="Buffer Wiring" width="400"/>
 
 Key integration challenges included:
 
@@ -75,9 +75,17 @@ Key integration challenges included:
 - Component placement optimization
 - Signal integrity considerations
 
+### PCB
+
+<img src="assets/pcb.png" alt="PCB" width="400"/>
+
+<img src="assets/pcb_back.png" alt="PCB" width="400"/>
+
+The PCB layout was made to ensure a proper audio quality. All analog traces  and chips are on the bottom layer, while digital traces are on the top. Also, the gnd plane in the inner bottom layer acts as a faraday's cage, not letting them interfier with each other.
+
 ### Final Design
 
-<img src="assets/cad_omnichord.jpg" alt="CAD Design" width="600"/>
+<img src="assets/CAD.png" alt="CAD Design" width="600"/>
 
 The final design incorporates all planned features while maintaining a compact, portable form factor suitable for live performance.
 
